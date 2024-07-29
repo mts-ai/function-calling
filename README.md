@@ -14,7 +14,7 @@ LLMs like GPT-4 and GPT-3.5 can detect when a function needs to be called and ge
    
 4. **Response Handling:** Call the model again, appending the function response as a new message. Let the model summarize the results back to the user.
 
-## Example: Sending Email with Gemini and Open Source Models
+## Example: Sending Email with Gemini
 
 ```python
 def multiply(a:float, b:float):
